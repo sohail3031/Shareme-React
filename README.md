@@ -21,3 +21,8 @@ After creating it, add the following three environment variables:
 1) REACT_APP_GOOGLE_API_TOKEN -> To get this token, you have to create a project in **"https://console.cloud.google.com/"**. After creating the project, navigate to ***APIs & Services -> OAuth 2.0 Client IDs***, copy the **"Client ID"**.
 2) REACT_APP_SANITY_PROJECT_ID -> To get the sanity project id, first create a project in sanity studio, then navigate to ***Project -> PROJECT ID***. Again "**Sanity manage"** is the command to open the sanity studio.
 3) REACT_APP_SANITY_TOKEN -> To get this token, in sanity studio, naviagte to ***API -> Tokens -> click on "Add API token" and add a token***. The permissions for this token should be **EDITOR**. Again "**Sanity manage"** is the command to open the sanity studio.
+
+## Missing Permissions
+After following the above steps, you might face some starnge errors. It's because you don't have right permissions. To get the right permissions, follow the below steps:
+1) In **"https://console.cloud.google.com/"** under ***APIs & Services -> OAuth 2.0 Client IDs***, click on the project name and add the url's ***"http://localhost"*** and ***"http://localhost:3000"*** in **Authorized JavaScript origins**. You should add those two in two separate url fields.
+2) In the **"Sanity Studio"**, under ***API -> CORS origins -> click on "Add CORS Origin"*** and add the url ***"http://localhost:3000"***.
