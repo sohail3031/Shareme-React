@@ -19,6 +19,6 @@ https://deluxe-moxie-78ddb0.netlify.app/login
 A **.env** file is missing in the **"sanity_frontend"** folder. Create it in the root folder.
 After creating it, add the following three environment variables:
 1) REACT_APP_GOOGLE_API_TOKEN -> To get this token, you have to create a project in **"https://console.cloud.google.com/"**. After creating the project, navigate to ***
-APIs & Services -> OAuth 2.0 Client IDs", copy the **"Client ID"**.
+APIs & Services -> OAuth 2.0 Client IDs***, copy the **"Client ID"**.
 2) REACT_APP_SANITY_PROJECT_ID -> To get the sanity project id, first create a project in sanity studio, then navigate to ***Project -> PROJECT ID***.
 3) REACT_APP_SANITY_TOKEN
