@@ -7,7 +7,7 @@
 
 ## Deployed Application Link
 The deployed application is hosted on netlify and you can find it here:
-https://deluxe-moxie-78ddb0.netlify.app/login
+https://deluxe-moxie-78ddb0.netlify.app
 
 ## Run locally
 > To run locally, open two terminals one for front-end and one for back-end.
